@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    margin-top: 15em;
+} 
+

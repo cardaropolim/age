@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérifions</title>
+    <link rel="stylesheet" href="styles.css">
+
+<script>
+    
+function check (){
+var nbr;
+nbr = Number (document.getElementById("age").value);
+if (nbr < 18)
+{
+    alert ("Tu n'es pas un adulte, retourne au bac à sable 🔞");
+}
+else
+{
+
+    document.location.href = "index2.html";
+}
+}
+    </script>
+
+</head>
+<body>
+
+Entrez votre age: <input id="age">
+<buttton onclick="check()"> Vérifier </buttton>
+
+</body>
+</html>
